@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Kaustubh/app/build/intermediates/pre-dexed/debug/classes-492fb0122f0e287e40646fbae9f9eae0c19f7d03.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Kaustubh/app/build/intermediates/pre-dexed/debug/classes-816916eaaabe8ed66cbe240723f490dcf341e971.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Kaustubh/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-abebbdcff185a00e2ba09cc4f5fdf6a48b7d0d3b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Kaustubh/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-c65172ba369699d7464e4f42cdc11afed6c25e34.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Kaustubh/app/build/intermediates/pre-dexed/debug/classes-4973fd0df41e90a76f4e5427681d4c511b3e0ab4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Kaustubh/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-1ce948d58c3d11c5efe9fc7cee059b8222e6d3b8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Kaustubh/app/build/intermediates/pre-dexed/debug/json_simple-1.1-515d2c403c2edf9b8393faf0760484d70c64b411.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Kaustubh/app/build/intermediates/pre-dexed/debug/dropbox-android-sdk-1.6.3-144c330d16e20cfd44a3c4c0e8e2c830240629d3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Kaustubh/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-01c036aa04b1f43f432cca51c660d743c8b391b5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Kaustubh/app/build/intermediates/pre-dexed/debug/classes-2cb93261c02b273348ab828e1d44090f64acf049.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

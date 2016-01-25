@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SwitchKey</string>
+    <string name="simple_ime">Switch Key Keyboard</string>
+    <string name="subtype_en_US">English (US)</string>
+    <string name="facebook_app_id">1656537444606314</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_keyboard_key_go">Go</string>
+    <string name="label_keyboard_key_send">Send</string>
+    <string name="label_keyboard_key_next">Next</string>
+</resources>

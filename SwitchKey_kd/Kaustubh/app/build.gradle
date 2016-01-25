@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.1'
+
+    defaultConfig {
+        applicationId "edu.nyu.switchkey"
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("../keys/release.jks")
+            storePassword "switchkey"
+            keyAlias "switchkey"
+            keyPassword "switchkey"
+        }
+        release {
+            storeFile file("../keys/release.jks")
+            storePassword "switchkey"
+            keyAlias "switchkey"
+            keyPassword "switchkey"
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+}
+repositories { mavenCentral() }
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.facebook.android:facebook-android-sdk:3.23.1'
+    compile files('libs/dropbox-android-sdk-1.6.3.jar')
+    compile project(':dropboxChooserSDK')
+}
